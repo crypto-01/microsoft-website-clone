@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Microsoft Official Homepage</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function slideBox(){
+              var nextShow = document.getElementById("showcase-next");
+              var nextShow2 = document.getElementById("showcase-next2");
+              var showcase = document.querySelector(".one");
+              var showcase2 = document.querySelector(".two");
+              if(nextShow2.checked){
+                      showcase.style.marginLeft = "-100%";
+
+                    }
+              else if(nextShow.checked){
+                      showcase.style.marginLeft = "0%";
+                    }
+            }
+    </script>
+    <div class="container">
+      <nav class="main-nav">
+        <img class="logo" src="img/logo.png" alt=Microsoft"">
+
+        <ul class="main-menu">
+          <li><a href="#">Office</a></li>
+          <li><a href="#">Windows</a></li>
+          <li><a href="#">Surface</a></li>
+          <li><a href="#">Xbox</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+
+        <ul class="right-menu">
+          <li><a href="#"><i class="fas fa-search"></i></a></li>
+          <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+      </nav>
+      <header class="showcases">
+        <ul class="showcase-radio">
+          <li><input type="radio" name="showcase-next" id="showcase-next" checked onclick="slideBox()"></li>
+          <li><input type="radio" name="showcase-next" id="showcase-next2" onclick = "slideBox()"></li>
+        </ul>
+        <div class="showcase one">
+          <h2>Surface Laptop Studio testing</h2>
+          <p>
+          Flex your creative muscle on the most powerful <br/>Surface Laptop
+          Now available with Window 11.
+          </p>
+          <a class="btn" href="#">Shop Now<i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="showcase two dark">
+          <h2>Get up to $700 cash back with <br>trade-in</h2>
+          <p>For a limited time, buy a new Surface Duo 2 and <br>get cash back when you trade in an eligible device <br>Terms and conditions apply.</p>
+          <a class="btn btn-dark" href="#">Shop Now<i class="fas fa-chevron-right"></i></a>
+        </div>
+      </header>
+      <section class="home-cards">
+        <div>
+          <img src="img/card1.png" alt="">
+          <h3>New Surface Pro &</h3>
+          <p>
+          See how Katie Sowers, Ass. Coach for the 49ers, users Surface Pro 7 to put her plans into play.
+          </p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card2.png" alt="">
+          <h3>New Surface Laptop 3&</h3>
+          <p>Express yourself powerfully with a thin, light, and elegant design, faster perfomance, and up to 11.h hours battery life.</p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card3.png" alt="">
+          <h3>Save $150 + free controller &</h3>
+          <p>Buy an xbox One X console and double your fun with a free select extra controller. Starting at $349</p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card4.png" alt="">
+          <h3>The new Microsoft Edge &</h3>
+          <p>Expect more. World class perfomance with more privacy, more productivity, and more value.</p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+      <section class="xbox">
+        <div class="content">
+          <h2>Xbox Game Pass Ultimate</h2>
+          <p>Xbox Game Pass Ultimate Xbox Live <br>Gold and over 100 high-quality <br> console and Pc games. Play togethe <br>r with friends and discover your next <br> favorite game.</p>
+          <a href="#" class="btn">
+            Join Now <i class="fas fas-chevron-right"></i>
+          </a>
+        </div>
+      </section>
+
+      <section class="home-cards">
+        <div>
+          <img src="img/card5.png" alt="">
+          <h3>Mircrosoft Teams &</h3>
+          <p>Unleash the power of your team.</p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card6.jpg" alt="">
+          <h3>Unlock the power of <br> learning &</h3>
+          <p>Get students future <br> ready with Windows 10 <b>devices.Starting at <b>$219</b></b></p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card7.png" alt="">
+          <h3>Windows 10 <br>Enterprise</h3>
+          <p>Download the free 90 <br>day avaluation for IT <br>professionals.</p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div>
+          <img src="img/card8.png" alt="">
+          <h3>Explore <br>Kubernetes</h3>
+          <p>Learn how kubernates <br>works and get started <br>with cloud native app <br>development today.</p>
+          <a href="">Learn more <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </section>
+    </div>
+    <section class=covid>
+      <div class="content">
+        <h1>Mircrosoft's response to COVID-19</h1>
+        <p>Read how we're responding to the COVID-19 outbreak, and get resources to help.</p>
+        <a href="#">Learn more
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+    </section>
+    <section class="social-media">
+      <h3>Follow Microsoft</h3>
+      <img src="img/social-fb.png">
+      <img src="img/social-twitter.png">
+      <img src="img/social-linkedin.png">
+    </section>
+
+  </body>
+</html>
